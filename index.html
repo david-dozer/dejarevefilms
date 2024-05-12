@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deja Reve Films</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+    </style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Deja Reve Films</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class ="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#bio">Bio</a>
+            <a href="#movies">Movies</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1><span class="text"></span></h1>
+            <!-- <div class="home-sci">
+                <a href="https://www.instagram.com/dejarevefilms/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/david-mendoza-7a5591212" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+            </div> -->
+        </div>
+        <div class ="home-img">
+            <!-- <img src="images\black_hole.jpg" alt=""> -->
+        </div>   
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images\angelwings.jpg"
+            width="400"
+            height="425" />
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Deja Reve Films LLC.</h2>
+            <p>Deja Reve Films is a film production company based in Chicago, Illinois, specializing in narrative short films.</p>
+            <p>Formed in 2024, Deja Reve Films aspires to elevate the industry standard in storytelling and the art of precision filmmaking.</p>
+            <p>From pre-production to post-production, we aim to excel in creating the highest quality films known to man.</p>       
+        </div>
+    </section>
+
+    <!-- bio section design -->
+    <section class="bio" id="bio">
+        <!-- <div class="bio-img">
+            <img src="images\aboutpic.jpg"
+            width="500"
+            height="500" />
+        </div> -->
+        <div class="bio-content">
+            <h2 class="heading"><span>Christian Mendoza</span></h2>
+            <p>Christian Mendoza is a producer, screenwriter, and director based out of Palatine, Illinois. 
+                He is the founder and CEO of Deja Reve Films. Specializing in writing and directing, he is mostly self-taught as a filmmaker and has learned from hands-experience working as a production assistant in feature film productions. In 2016, Christian enlisted in the Illinois Army National Guard and served as a unit supply specialist with A Battery 2-122 33rd IBCT for six years. 
+                Christian currently works as a chiropractic technician at Evolve Chiropractic in downtown Palatine. 
+                While he's not making films, he trains jiu jitsu at Real Movement and Martial Arts (RMMA) as a white belt under Joey Diehl.</p>       
+        </div>
+    </section>
+
+    <!-- movies section design-->
+    <section class="movies" id="movies">
+        <div class="movies-content">
+            <h2 class="heading">COMING SOON</h2>
+            <h3 class="heading">TRIP TO THE EDGE</h3>
+            <p class="heading">(A Christian Mendoza film)</p>
+        </div>
+    </section>
+
+    <!-- News section design -->
+    <section class="news" id="news">
+        <div class="news-content">
+            <h1 class="heading">Latest News</h1>
+            <p class="heading">Deja Reve Films is proud to announce pre-production on its first short film, 
+                TRIP TO THE EDGE, produced, written, and directed by Christian Mendoza. 
+                Production begins in May 2024.</p>
+        </div>
+        <div class ="home-img">
+        </div> 
+    </section>
+    <!-- News posts will be dynamically added here -->
+        <!-- <div class="news-container">
+            <h2 class="heading">Latest News</h2>
+            <div class="news-feed" id="news-feed">
+            </div>
+            News form
+            <form id="news-form">
+                <input type="text" id="news-title" placeholder="Enter title" required>
+                <textarea id="news-content" placeholder="Enter content" required></textarea>
+                <input type="date" id="news-date" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div> -->
+    <!-- <script>
+        // Get the current date and format it as "yyyy-mm-dd"
+        const currentDate = new Date();
+        const formattedDate = currentDate.toISOString().slice(0, 10);
+        
+        // Set the value of the date input to today's date
+        document.getElementById('news-date').value = formattedDate;
+    </script> -->
+
+    <!-- contact resume section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <img src="images\scorcese.jpg" 
+                width="400"
+                height="425" 
+                class="contact-img"/>
+            <div class="home-sci">
+                <a href="https://www.instagram.com/dejarevefilms/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            </div>
+            <div class="contact-content">
+                <h2>Contact <span>Me</span></h2>
+                <p class="heading">IG: dejarevefilms</p>
+                <p class="heading">Email: christian@dejarevefilms.com</p>
+                <!-- Additional content here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer class="copyright">
+        &copy; 2024 Deja Reve Films LLC. All rights reserved.
+        <div class="footerIconTop">
+            <a href="#about"><i class='bx bxs-chevron-up' ></i></a>
+        </div>
+    </footer>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- scroll reveal script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main script section -->
+    <script src="main.js"></script>
+</body>
+    
+</html>
