@@ -1,5 +1,5 @@
 const typed = new Typed('.text', {
-    strings: ["Deja Reve.", "Already", "Dreamed", "Already Dreamed."],
+    strings: ["Deja Reve.", "Already Dreamed."],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
