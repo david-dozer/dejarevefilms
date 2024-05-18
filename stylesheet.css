@@ -134,6 +134,22 @@ span {
     z-index: -1; /* Set a negative z-index to keep it behind the text */
 }
 
+.bg-image {
+    background-image: url('images/movie_poster1.jpg'); /* Ensure this path is correct */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust opacity for fading effect */
+    width: 100%;
+    height: 100%; /* Set the height to 100% of its container */
+    position: absolute; /* Use absolute positioning */
+    top: 0; /* Align the image to the top */
+    left: 0; /* Align the image to the left */
+    z-index: -1; /* Set a negative z-index to keep it behind the text */
+}
+
+
+
 .home-sci a
 {
     display: inline-flex;
