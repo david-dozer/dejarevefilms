@@ -139,7 +139,7 @@ span {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.5; /* Adjust opacity for fading effect */
+    opacity: 0.45; /* Adjust opacity for fading effect */
     width: 100%;
     height: 100%; /* Set the height to 100% of its container */
     position: absolute; /* Use absolute positioning */
@@ -147,8 +147,6 @@ span {
     left: 0; /* Align the image to the left */
     z-index: -1; /* Set a negative z-index to keep it behind the text */
 }
-
-
 
 .home-sci a
 {
@@ -201,7 +199,7 @@ section.about {
     justify-content: space-between;
     align-items:center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .heading {
@@ -233,8 +231,9 @@ section.about {
     font-size: 2.3rem;
 }
 .about-content p {
-    font-size: 2.3rem;
+    font-size: 2.0rem;
     margin: 2rem 0 3rem;
+    font-family: "Noto Serif Georgian", serif;
 }
 
 /* end of about section  */
@@ -244,7 +243,7 @@ section.about {
     justify-content: space-between;
     align-items:center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .heading {
@@ -273,27 +272,18 @@ section.about {
     font-size: 2.6rem;
 }
 .bio-content p {
-    font-size: 1.75rem;
+    font-size: 2.0rem;
     margin: 2rem 0 3rem;
+    font-family: "Noto Serif Georgian", serif;
 }
 
 .movies {
     position: relative;
     min-height: 100vh;
-    background-image: url('images/shrooms.jpg'); /* Set the background image */
+    /* background-image: url('images/movie_poster1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.movies::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Faded black overlay */
+    background-position: center; */
 }
 
 .movies-content h2 {
@@ -362,6 +352,7 @@ section.about {
     text-align: center;
     height: 200px;
     font-size: 2.0rem;
+    font-family: "Noto Serif Georgian", serif;
     position: relative; /* Add this line to ensure z-index works */
     z-index: 1; /* Bring the element to the front */
 }

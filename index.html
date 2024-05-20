@@ -8,11 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
     </style>
 <body>
     <header class="header">
@@ -21,11 +23,11 @@
 
         <nav class="navbar">
             <a href="#home" class ="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#bio">Bio</a>
-            <a href="#movies">Movies</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
+            <a href="#about"><span>About</span></a>
+            <a href="#bio"><span>Bio</span></a>
+            <a href="#movies"><span>Movies</span></a>
+            <a href="#news"><span>News</span></a>
+            <a href="#contact"><span>Contact</span></a>
         </nav>
     </header>
 
@@ -33,10 +35,6 @@
     <section class="home" id="home">
         <div class="home-content">
             <h1><span class="text"></span></h1>
-            <!-- <div class="home-sci">
-                <a href="https://www.instagram.com/dejarevefilms/" target="_blank"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.linkedin.com/in/david-mendoza-7a5591212" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-            </div> -->
         </div>
         <div class ="home-img">
             <!-- <img src="images\black_hole.jpg" alt=""> -->
@@ -45,16 +43,11 @@
 
     <!-- about section design -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images\angelwings.jpg"
-            width="400"
-            height="425" />
-        </div>
         <div class="about-content">
-            <h2 class="heading">Deja Reve Films LLC.</h2>
-            <p>Deja Reve Films is a film production company based in Chicago, Illinois, specializing in narrative short films.</p>
-            <p>Formed in 2024, Deja Reve Films aspires to elevate the industry standard in storytelling and the art of precision filmmaking.</p>
-            <p>From pre-production to post-production, we aim to excel in creating the highest quality films known to man.</p>       
+            <h2 class="heading"><span>Deja Reve Films LLC.</span></h2>
+            <p>Deja Reve Films is a film production company based in Chicago, Illinois, specializing in narrative short films.
+                Formed in 2024, Deja Reve Films aspires to elevate the industry standard in storytelling and the art of precision filmmaking.
+                From pre-production to post-production, we aim to excel in creating the highest quality films known to man.</p>       
         </div>
     </section>
 
@@ -77,10 +70,12 @@
     <!-- movies section design-->
     <section class="movies" id="movies">
         <div class="movies-content">
-            <h2 class="heading">COMING SOON</h2>
+            <h2 class="heading"><span>COMING SOON</span></h2>
             <h3 class="heading">TRIP TO THE EDGE</h3>
             <p class="heading">(A Christian Mendoza film)</p>
         </div>
+        <div class ="bg-image">
+        </div> 
     </section>
 
     <!-- News section design -->
@@ -90,7 +85,7 @@
             <p class="heading"><span>05-14-2024: </span>Trip to the Edge has successfully wrapped principal photgraphy on May 12, 2024.
             Post-production is expected to take 4-6 months with a premiere date expected towards the end of 2024.</p>
         </div>
-        <div class ="bg-image">
+        <div class ="home-img">
         </div> 
     </section>
     <!-- News posts will be dynamically added here -->
@@ -138,7 +133,7 @@
     <footer class="copyright">
         &copy; 2024 Deja Reve Films LLC. All rights reserved.
         <div class="footerIconTop">
-            <a href="#about"><i class='bx bxs-chevron-up' ></i></a>
+            <a href="#home"><i class='bx bxs-chevron-up' ></i></a>
         </div>
     </footer>
 
