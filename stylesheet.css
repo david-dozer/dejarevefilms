@@ -136,11 +136,11 @@ span {
 
 .new-logo-img {
     background-image: url('images/new-logo.png');
-    background-size: cover;
+    background-size: contain; /* Adjust background-size to contain the entire image */
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.5; /* Adjust opacity for fading effect */
-    width: 50%; /* Make sure it covers the entire section */
+    width: 100%; /* Make the image as wide as the container */
     height: 85vh; /* Set a suitable height */
     position: relative;
     z-index: -1; /* Set a negative z-index to keep it behind the text */
@@ -622,7 +622,7 @@ footer.copyright {
     .home-content h1, .about-content h1, .bio-content h1, .movies-content h1, .news-content h1, .contact-content h2 {
         font-size: 5rem;
     }
-    .home-img img, .about-img img{
+    .black-hole-img img, .new-logo-img img{
         max-width: 100%; /* Full width for smaller screens */
         margin-top: 4rem;
     }
@@ -675,7 +675,7 @@ footer.copyright {
 }
 
 @media (max-width: 365px) {
-    .home-img img, .about-img img, .bio-img img {
+    .black-hole-img img, .new-logo-img img {
         width: 90vw;
     }
 }
