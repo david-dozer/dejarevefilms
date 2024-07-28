@@ -122,7 +122,7 @@ span {
     font-size: 2rem;
 }
 
-.home-img {
+.black-hole-img {
     background-image: url('images/black_hole.png');
     background-size: cover;
     background-position: center;
@@ -130,6 +130,18 @@ span {
     opacity: 0.5; /* Adjust opacity for fading effect */
     width: 100%; /* Make sure it covers the entire section */
     height: 75vh; /* Set a suitable height */
+    position: relative;
+    z-index: -1; /* Set a negative z-index to keep it behind the text */
+}
+
+.new-logo-img {
+    background-image: url('images/new-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust opacity for fading effect */
+    width: 50%; /* Make sure it covers the entire section */
+    height: 85vh; /* Set a suitable height */
     position: relative;
     z-index: -1; /* Set a negative z-index to keep it behind the text */
 }
