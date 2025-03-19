@@ -26,7 +26,7 @@
             <a href="#about"><span>About</span></a>
             <a href="#bio"><span>Bio</span></a>
             <a href="#movies"><span>Movies</span></a>
-            <!-- <a href="#news"><span>News</span></a> -->
+            <a href="#latest"><span>Latest</span></a>
             <a href="#contact"><span>Contact</span></a>
         </nav>
     </header>
@@ -61,8 +61,7 @@
         <div class="bio-content">
             <h2 class="heading"><span>Christian Mendoza</span></h2>
             <p>Christian Mendoza is a producer, screenwriter, and director based out of Palatine, Illinois. 
-                He is the founder and CEO of Deja Reve Films. Specializing in writing and directing, he is mostly self-taught as a filmmaker and has learned from hands-experience working as a production assistant in feature film productions. In 2016, Christian enlisted in the Illinois Army National Guard and served as a unit supply specialist with A Battery 2-122 33rd IBCT for six years. 
-                Christian currently works as a chiropractic technician at Evolve Chiropractic in downtown Palatine. 
+                He is the founder and owner of Deja Reve Films. Specializing in writing and directing, he is mostly self-taught as a filmmaker and has learned from hands-experience working as a production assistant in feature film productions. In 2016, Christian enlisted in the Illinois Army National Guard and served as a unit supply specialist with A Battery 2-122 33rd IBCT for six years. 
                 While he's not making films, he trains jiu jitsu at Real Movement and Martial Arts (RMMA) as a white belt under Joey Diehl.</p>       
         </div>
     </section>
@@ -74,44 +73,44 @@
             <h3 class="heading">TRIP TO THE EDGE</h3>
             <p class="heading">(A Christian Mendoza film)</p>
         </div>
-        <div class ="bg-image">
-        </div> 
+        <!-- embed sizzle reel here -->
+        <div class="video-container">
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/yHwcETUTUGE"
+                title="Trip to the Edge Sizzle Reel"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
     </section>
 
-    <!-- News section design -->
-    <!-- <section class="news" id="news">
-        <div class="news-content">
-            <h1 class="heading">Latest News</h1>
-            <p class="heading"><span>07-30-2024: </span>Production on Real Deal Jiu Jitsu, 
-                a docuseries following the competition team of Real Movement and Martial Arts based in Bartlett, IL, 
-                officially started on July 21, 2024. The series will be a FightStreams Original, 
-                co-produced by Deja Reve Films, and will be released on YouTube with the first episode 
-                expected to premiere in late September.</p>
-        </div>
-        <div class ="black-hole-img">
-        </div> 
-    </section> -->
-    <!-- News posts will be dynamically added here -->
-        <!-- <div class="news-container">
-            <h2 class="heading">Latest News</h2>
-            <div class="news-feed" id="news-feed">
+    <!-- Latest Videos Section -->
+    <section class="latest" id="latest">
+        <div class="latest-content">
+        <h2 class="heading"><span>Latest Videos</span></h2>
+        <h3 class="heading"><span>Real Deal Jiu Jitsu</span></h3>
+        <div class="videos-list">
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/JRbMLYe_G58" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            News form
-            <form id="news-form">
-                <input type="text" id="news-title" placeholder="Enter title" required>
-                <textarea id="news-content" placeholder="Enter content" required></textarea>
-                <input type="date" id="news-date" required>
-                <button type="submit">Submit</button>
-            </form>
-        </div> -->
-    <!-- <script>
-        // Get the current date and format it as "yyyy-mm-dd"
-        const currentDate = new Date();
-        const formattedDate = currentDate.toISOString().slice(0, 10);
-        
-        // Set the value of the date input to today's date
-        document.getElementById('news-date').value = formattedDate;
-    </script> -->
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/1cqQkMfNby4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7DNWr78Aa2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/CDQtRPeEp-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/j4C3fvMfsjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+    </section> 
 
     <!-- contact resume section -->
     <section class="contact" id="contact">
@@ -128,6 +127,9 @@
                 <p class="heading">IG: dejarevefilms</p>
                 <p class="heading">Email: christian@dejarevefilms.com</p>
                 <!-- Additional content here -->
+            </div>
+            <div class="home-sci">
+                <a href="https://www.youtube.com/@DejaReveFilms" target="_blank"><i class='bx bxl-youtube'></i></a>
             </div>
         </div>
     </section>

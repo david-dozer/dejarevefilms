@@ -325,165 +325,6 @@ section.about {
 }
 /* end of movies section  */
 
-.news
-{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.news-content {
-    position: absolute;
-    top: 20%;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.news.heading {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 30px;
-    color: white; /* Ensure sufficient contrast for the text */
-}
-
-.news-content h1 {
-    text-align: center;
-    height: 200px;
-    font-size: 6.0rem;
-    position: relative; /* Add this line to ensure z-index works */
-    z-index: 1; /* Bring the element to the front */
-}
-
-.news-content p {
-    text-align: center;
-    height: 200px;
-    font-size: 2.0rem;
-    font-family: "Noto Serif Georgian", serif;
-    position: relative; /* Add this line to ensure z-index works */
-    z-index: 1; /* Bring the element to the front */
-}
-
-/* .news-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-} */
-
-/* .news-feed {
-    display: flex;
-    color: var(--third-bg-color);
-    flex-direction: column;
-    max-height: 300px; /* Adjust the height as needed */
-    /* overflow-y: auto;  */
-    /* Add scrollbars if content exceeds the height */
-/* } */
-
-/* .news-post {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.news-post h3 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.news-post p {
-    font-size: 1.4rem;
-    color: #555555;
-}
-
-.news-post .date {
-    font-size: 1.2rem;
-    color: #888888;
-} */
-
-/* Style the form container */
-/* #news-form {
-    margin-top: 20px;
-    background-color: var(--third-bg-color);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
-
-/* Style the input fields */
-/* #news-title,
-#news-content,
-#news-date {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-} */
-
-/* Style the submit button */
-/* #news-form button[type="submit"] {
-    background-color: var(--main-color);
-    color: var(--third-bg-color);
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-#news-form button[type="submit"]:hover {
-    background-color: #0056b3;
-} */
-
-/* Style the date input */
-/* #news-date {
-    appearance: none;
-    -webkit-appearance: none;
-    padding-right: 30px; /* Add space for date picker icon */
-/* } */
-
-/* Customize the date picker icon */
-/* #news-date::-webkit-calendar-picker-indicator {
-    background: transparent;
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 30px;
-    opacity: 0.7;
-} */
-
-/* Adjust font size for date input */
-/* #news-date::-webkit-inner-spin-button,
-#news-date::-webkit-outer-spin-button {
-    appearance: none;
-    margin: 0;
-} */
-
-/* Style the date format placeholder */
-/* #news-date::placeholder {
-    color: #aaa;
-} */
-
-/* Responsive adjustments */
-/* @media screen and (max-width: 600px) {
-    #news-title,
-    #news-content,
-    #news-date {
-        font-size: 12px;
-    }
-} */
-
-/* news section done  */
-
 /* Center-align the content within the .download container */
 .contact {
     min-height: 100vh;
@@ -679,5 +520,52 @@ footer.copyright {
         width: 90vw;
     }
 }
+
+/* Responsive video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Center the sizzle image */
+.sizzle-reel-image-container {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Make the image responsive */
+  .sizzle-image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  
+  /* Optional: Style for the videos-list container if needed */
+  .videos-list {
+    display: block;
+  }  
+
+.latest-content h2 {
+    font-size: 5rem;
+    height: 100px;  /* Added height property */
+}
+
+.latest-content h3 {
+    font-size: 3rem;
+    height: 50px;  /* Added height property */
+    color: var(--text-color);
+}
+
 
   
